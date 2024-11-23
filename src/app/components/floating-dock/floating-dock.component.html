@@ -1,0 +1,46 @@
+<div class="relative block md:hidden" [ngClass]="mobileClassName">
+  <!-- Mobile Dock -->
+  <div *ngIf="open" class="absolute bottom-full mb-2 inset-x-0 flex flex-col gap-2">
+    <div *ngFor="let item of items; let idx = index" class="motion-item">
+      <a
+        [href]="item.href"
+        target="_blank"
+        class="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
+      >
+        <img [src]="item.icon" alt="{{ item.title }}" class="h-4 w-4" />
+      </a>
+    </div>
+  </div>
+  <button
+    (click)="toggleMobileDock()"
+    class="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center"
+  >
+    <i class="icon-navbar-collapse"></i>
+  </button>
+</div>
+
+<!-- Desktop Dock -->
+<div
+  (mousemove)="onMouseMove($event)"
+  (mouseleave)="onMouseLeave()"
+  class="mx-auto hidden md:flex h-16 gap-4 items-end rounded-2xl bg-gray-50 dark:bg-neutral-900 px-4 pb-3"
+  [ngClass]="desktopClassName"
+>
+  <div
+    *ngFor="let item of items"
+    class="aspect-square rounded-full bg-gray-200 dark:bg-neutral-800 flex items-center justify-center relative"
+    (mouseenter)="setHoveredItem(item.title)"
+    (mouseleave)="clearHoveredItem()"
+  >
+    <!-- Tooltip -->
+    <div
+      *ngIf="hoveredItem === item.title"
+      [@tooltip]="'visible'"
+      class="px-2 py-0.5 whitespace-pre rounded-md bg-gray-100 border dark:bg-neutral-800 dark:border-neutral-900 dark:text-white border-gray-200 text-neutral-700 absolute left-1/2 -translate-x-1/2 -top-8 w-fit text-xs"
+    >
+      {{ item.title }}
+    </div>
+    <!-- Icon -->
+    <img [src]="item.icon" alt="{{ item.title }}" class="h-6 w-6" />
+  </div>
+</div>

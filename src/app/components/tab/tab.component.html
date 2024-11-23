@@ -1,0 +1,14 @@
+<div
+      [ngClass]="{
+        'blur-[0px] rounded-sm sticky opacity-100 transform translate-y-0': isScrolledDown,
+        'blur-[0px] left-0 right-0 opacity-0 transform -translate-y-2': !isScrolledDown
+      }"
+      class="fixed top-0 z-50 h-[10px] w-full bg-[#38BDF8] transition-all duration-1000"
+    ></div>
+    <div
+    [ngClass]="{
+      'blur-[100px] opacity-100 transform translate-y-0': isScrolledDown,
+      'blur-[0px] opacity-0 transform -translate-y-2': !isScrolledDown
+    }"
+    class="sticky left-0 right-0 top-0 z-50 h-[50px] w-full bg-[#38BDF8] transition-all duration-1000"
+  ></div>

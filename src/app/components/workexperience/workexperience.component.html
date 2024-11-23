@@ -1,0 +1,74 @@
+<div class="flex flex-col gap-4">
+    <p class="text-xl font-bold">Work Experience</p>
+    <div class="flex items-start justify-between">
+      <div class="flex items-start gap-3 w-full">
+        <div class="avatar border-[5px] dark:border-gray-300">
+          <img src="/assets/searchAI.jpg" alt="Avatar" class="avatar-image" />
+          <div class="avatar-fallback">ComUnus</div>
+        </div>
+        <div
+          (click)="toggleOpen()"
+          class="flex flex-col flex-1 items-start w-full justify-between cursor-pointer group"
+        >
+          <div class="flex items-start justify-between w-full">
+            <div>
+              <div class="flex items-center gap-2">
+                <p class="inline-flex font-semibold leading-none text-xs sm:text-sm">
+                  SearchAI Infrastructure Technology Pvt Ltd
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline-block w-4 h-4 ml-1 text-gray-400 transform transition-transform duration-400"
+                  [ngClass]="{
+                    'rotate-90': isOpen,
+                    'animate-bounce group-hover:text-black dark:group-hover:text-white': !isOpen
+                  }"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+              <p class="font-sans text-xs">
+                FRONTEND CORE ENGINEER (NEXT/REACT)
+              </p>
+            </div>
+            <div>
+              <p class="font-medium hidden md:block text-gray-500 text-sm md:text-[14px]">
+                April 2024 - July 2024
+              </p>
+            </div>
+          </div>
+          <div *ngIf="isOpen" class="mt-2">
+            <p class="font-normal text-gray-500 dark:text-gray-400 text-[14px]">
+              As a Frontend Core Engineer at SearchAI, I specialize in
+              developing and optimizing our e-commerce platform using Next.js
+              and React. My role involves designing and implementing dynamic,
+              responsive user interfaces to enhance the shopping experience
+              for our customers.
+            </p>
+            <div class="mt-2">
+              <ul>
+                <li
+                  *ngFor="let item of responsibilities"
+                  class="flex items-start gap-2 text-gray-500 dark:text-gray-400"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <circle cx="12" cy="12" r="2" />
+                  </svg>
+                  <p class="text-[14px]">{{ item }}</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

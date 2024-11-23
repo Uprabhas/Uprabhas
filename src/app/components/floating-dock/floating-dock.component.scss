@@ -1,0 +1,7 @@
+.motion-item {
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .motion-item:hover {
+    opacity: 1;
+    transform: translateY(0);
+  }
