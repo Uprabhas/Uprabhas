@@ -9,4 +9,19 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+
+  getprint(){
+    const pdfpath = '/prabhas_resume.pdf';
+
+    const newtab = window.open(pdfpath, '_blank');
+
+    if (newtab){
+      newtab.onload = function () {
+        newtab.print();
+      }
+    }else{
+      alert("something went wrong");
+    }
+  }
+
 }
