@@ -12,60 +12,56 @@ import { CommonModule } from '@angular/common';
 export class ProjectsectionComponent {
   projects = [
     {
-      title: 'Save-To-Drive',
+      title: 'Anime Atlas',
       description:
         'SaveToDrive is a file storage web application. It is designed to provide a seamless experience for users to store and manage their files effortlessly.',
-      image: '/assets/saveToDrive.png',
-      github: 'https://github.com/deepanshu2711/SaveToDrive',
-      live: 'https://save-to-drive.vercel.app/',
-      skills: ['Next.js', 'React', 'Firebase', 'MongoDB', 'Tailwind', 'ShadCn'],
+      image: '/animeatlas.png',
+      github: 'https://github.com/Uprabhas/AnimeAtlas',
+      live: 'https://anime-atlas-psi.vercel.app/',
+      skills: ['Angular', 'Typescript', 'Scss', 'Material UI', 'Tailwind'],
     },
     {
-      title: 'E-Connect',
+      title: 'portfoilo',
       description:
         'A one-to-one Video calling application using WebRtc from scratch which lets you create a room or join a room with roomId and also have a functionality to schedule a meeting with a particular User and users can also view their meeting history',
-      image: '/assets/e-connect.jpg',
-      github: 'https://github.com/deepanshu2711/E-Connect-WebRTC',
+      image: '/portfolio.png',
+      github: 'https://github.com/Uprabhas/Uprabhas',
       skills: [
-        'React',
-        'Node',
-        'WebRtc',
-        'Websockets',
-        'MongoDb',
-        'Tailwind',
+        'Angular',
+        'typescrpti',
+        'material UI',
+        'Taliwind',
       ],
     },
     {
-      title: 'Discord Clone',
-      description:
-        'A comprehensive Discord clone featuring real-time messaging, video and audio calling, file uploads, and secure authentication. This platform leverages a robust backend, a real-time database, and cutting-edge communication technology to deliver a seamless user experience.',
-      image: '/assets/discord.jpg',
-      github: 'https://github.com/deepanshu2711/discord-clone',
-      skills: [
-        'React',
-        'Next.js',
-        'Prisma',
-        'Socket.io',
-        'Supabase',
-        'Tailwind',
-      ],
-    },
-    {
-      title: 'Genius AI',
+      title: 'Weather-app',
       description:
         'Genius AI is a software which uses OpenAI-API to generate text, images, and code snippets based on user prompt. It is built using Nextjs, Shadcn, and Tailwind for styling.',
-      image: '/assets/genius2.png',
-      github: 'https://github.com/deepanshu2711/Ai_saas',
-      live: 'https://ai-saas-three-zeta.vercel.app/',
+      image: '/climate.png',
+      github: 'https://github.com/Uprabhas/climateapp',
+      live: 'https://climateapp-ten.vercel.app/',
       skills: [
         'React',
-        'Next.js',
-        'Clerk',
-        'OpenAI',
-        'OpenAI API',
-        'Shadcn',
+        'Tailwind',
+        'Material UI',
+        'search opitimed'
+      ],
+    },
+    {
+      title: 'spend wise',
+      description:
+        'A comprehensive Discord clone featuring real-time messaging, video and audio calling, file uploads, and secure authentication. This platform leverages a robust backend, a real-time database, and cutting-edge communication technology to deliver a seamless user experience.',
+      image: '/moblie.png',
+      github: 'https://github.com/deepanshu2711/discord-clone',
+      skills: [
+        'Angular',
+        'ionic',
+        'Android',
+        'Typescrpit',
+        'Material UI',
         'Tailwind',
       ],
     },
+    
   ];
 }
