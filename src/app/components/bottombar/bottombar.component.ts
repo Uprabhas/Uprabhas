@@ -18,7 +18,7 @@ export class BottombarComponent {
     {
       title: 'Github',
       icon: 'github',
-      href: 'https://github.com/deepanshu2711'
+      href: 'https://github.com/Uprabhas'
     },
     {
       title: 'Twitter',
@@ -28,17 +28,12 @@ export class BottombarComponent {
     {
       title: 'Linkedin',
       icon: 'linkedin',
-      href: 'https://www.linkedin.com/in/deepanshu-saini-a6757b213/'
+      href: 'https://www.linkedin.com/in/prabhasutla/'
     },
     {
       title: 'Mail',
       icon: 'mail',
-      href: 'mailto:deepanshusaini2711@gmail.com'
+      href: 'mailto:prabashutla111@gmail.com'
     },
-    {
-      title: 'Theme',
-      icon: 'mode-toggle',
-      href: '/'
-    }
   ];
 }

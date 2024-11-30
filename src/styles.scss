@@ -60,11 +60,11 @@
     }
 }
 body {
-    cursor: url('../public/butterfly-cursor.jpg')10 10, auto;
+    cursor: src('/butterfly-cursor.jpg'), auto;
   }
   
 :host {
-    cursor: url('../public/butterfly-cursor.jpg'), auto;
+    cursor: url('/butterfly-cursor.jpg'), auto;
   }
 
 

@@ -12,7 +12,7 @@ export class WorkexperienceComponent {
   isOpen = false;
 
   responsibilities = [
-    'Building and maintaining scalable and high-performance web applications with Next.js and React.',
+    'Building and maintaining scalable and high-performance web applications with Angular .',
     'Implementing best practices to ensure fast loading times and smooth interactions across various devices.',
     'Working closely with design and backend teams to deliver seamless integration and innovative solutions for complex problems.',
   ];
