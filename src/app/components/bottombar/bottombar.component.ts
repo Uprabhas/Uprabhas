@@ -23,7 +23,7 @@ export class BottombarComponent {
     {
       title: 'Twitter',
       icon: 'twitter',
-      href: 'https://x.com/DeepanshuS7943'
+      href: 'https://x.com/Prabhas'
     },
     {
       title: 'Linkedin',

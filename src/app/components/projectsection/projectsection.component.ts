@@ -56,6 +56,7 @@ export class ProjectsectionComponent {
       skills: [
         'Angular',
         'ionic',
+        'capacitor',
         'Android',
         'Typescrpit',
         'Material UI',
