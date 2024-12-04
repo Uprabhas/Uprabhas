@@ -14,29 +14,28 @@ export class ProjectsectionComponent {
     {
       title: 'Anime Atlas',
       description:
-        'SaveToDrive is a file storage web application. It is designed to provide a seamless experience for users to store and manage their files effortlessly.',
+        'Developed a comprehensive anime web application that centralizes Anime and Manga information for users.',
       image: '/animeatlas.png',
       github: 'https://github.com/Uprabhas/AnimeAtlas',
       live: 'https://anime-atlas-psi.vercel.app/',
       skills: ['Angular', 'Typescript', 'Scss', 'Material UI', 'Tailwind'],
     },
-    {
-      title: 'portfoilo',
-      description:
-        'A one-to-one Video calling application using WebRtc from scratch which lets you create a room or join a room with roomId and also have a functionality to schedule a meeting with a particular User and users can also view their meeting history',
-      image: '/portfolio.png',
-      github: 'https://github.com/Uprabhas/Uprabhas',
-      skills: [
-        'Angular',
-        'typescrpti',
-        'material UI',
-        'Taliwind',
-      ],
-    },
+    // {
+    //   title: 'portfoilo',
+    //   description:
+    //     'A one-to-one Video calling application using WebRtc from scratch which lets you create a room or join a room with roomId and also have a functionality to schedule a meeting with a particular User and users can also view their meeting history',
+    //   image: '/portfolio.png',
+    //   github: 'https://github.com/Uprabhas/Uprabhas',
+    //   skills: [
+    //     'Angular',
+    //     'typescrpti',
+    //     'material UI',
+    //     'Taliwind',
+    //   ],
+    // },
     {
       title: 'Weather-app',
-      description:
-        'Genius AI is a software which uses OpenAI-API to generate text, images, and code snippets based on user prompt. It is built using Nextjs, Shadcn, and Tailwind for styling.',
+      description:'The weather application was implemented to provide climate information using geolocation & search city`s, fetching location-based climate data from the database.',
       image: '/climate.png',
       github: 'https://github.com/Uprabhas/climateapp',
       live: 'https://climateapp-ten.vercel.app/',
@@ -50,7 +49,7 @@ export class ProjectsectionComponent {
     {
       title: 'spend wise',
       description:
-        'A comprehensive Discord clone featuring real-time messaging, video and audio calling, file uploads, and secure authentication. This platform leverages a robust backend, a real-time database, and cutting-edge communication technology to deliver a seamless user experience.',
+        'This application helps you track all your expenses from bank accounts and UPI apps, displaying them in one place.',
       image: '/moblie.png',
       github: 'https://github.com/deepanshu2711/discord-clone',
       skills: [
