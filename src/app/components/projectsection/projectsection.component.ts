@@ -20,19 +20,19 @@ export class ProjectsectionComponent {
       live: 'https://anime-atlas-psi.vercel.app/',
       skills: ['Angular', 'Typescript', 'Scss', 'Material UI', 'Tailwind'],
     },
-    // {
-    //   title: 'portfoilo',
-    //   description:
-    //     'A one-to-one Video calling application using WebRtc from scratch which lets you create a room or join a room with roomId and also have a functionality to schedule a meeting with a particular User and users can also view their meeting history',
-    //   image: '/portfolio.png',
-    //   github: 'https://github.com/Uprabhas/Uprabhas',
-    //   skills: [
-    //     'Angular',
-    //     'typescrpti',
-    //     'material UI',
-    //     'Taliwind',
-    //   ],
-    // },
+    {
+      title: 'E-cart',
+      description:
+        'Our e-commerce website offers a seamless online shopping experience, providing a wide range of products across multiple categories, including electronics, fashion, home decor, beauty, and more.',
+      image: '/ecart.png',
+      github: 'https://github.com/Uprabhas/e-cart',
+      skills: [
+        'Angular',
+        'typescrpti',
+        'material UI',
+        'Scss',
+      ],
+    },
     {
       title: 'Weather-app',
       description:'The weather application was implemented to provide climate information using geolocation & search city`s, fetching location-based climate data from the database.',
