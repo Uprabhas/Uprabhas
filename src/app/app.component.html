@@ -1,4 +1,7 @@
-<div class="max-w-3xl mx-auto px-[20px] md:px-0 mb-[100px]">
+<div class="max-w-3xl mx-auto px-[20px] md:px-0 mb-[100px]" >
+  <div class="circle" #circle *ngFor="let color of colors; let i = index"></div>
+
+  
   <app-tab></app-tab>
   <div className="flex flex-col gap-10 mt-16">
     <app-blurback></app-blurback>
