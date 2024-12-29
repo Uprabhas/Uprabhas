@@ -1,3 +1,4 @@
-.acbage:hover{
-    transform: rotate(0.03624deg) translate(3.5%, 10%) scale(1.5);
+.acbage:hover {
+    transform: rotate(0.04deg) translate(3.5%, 10%) scale(1.5);
+    transition: transform 0.3s ease-in-out;
 }
