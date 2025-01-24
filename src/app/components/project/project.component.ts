@@ -13,6 +13,6 @@ export class ProjectComponent {
   @Input() description!: string;
   @Input() image!: string;
   @Input() skills!: string[];
-  @Input() github!: string;
+  @Input() github?: string;
   @Input() live?: string;
 }

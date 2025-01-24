@@ -45,6 +45,7 @@
           <p class="text-[10px] text-white">Website</p>
         </a>
         <a
+          *ngIf="github"
           [href]="github"
           target="_blank"
           class="flex items-center gap-2 bg-gray-950 hover:bg-gray-700 rounded-lg px-2 py-1 cursor-pointer"
