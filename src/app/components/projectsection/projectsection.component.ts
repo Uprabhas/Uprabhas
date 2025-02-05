@@ -19,7 +19,7 @@ export class ProjectsectionComponent {
       live: 'http://cropdezine.com/',
       skills: [
         'Angular',
-        'typescrpti',
+        'Typescript',
         'material UI',
         'Ag-grid',
         'Smart-html',
