@@ -1,7 +1,7 @@
 
 
 <h1 align="center">Hello There👋 I'm Prabhas Utla</h1>
-<h3 align="center">I am a Full Stack Web Developer who loves to build crazy web application.</h3>
+<h3 align="center">Iam a Full Stack Web Developer, I'm driven by a passion for crafting truly innovative and often wild web applications.</h3>
 <br></br>
 
 - 🌱 I’m currently learning **Next js**
