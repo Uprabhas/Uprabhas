@@ -60,12 +60,10 @@
     }
 }
 body {
-    cursor: src('/butterfly-cursor.jpg'), auto;
+    background: rgb(254, 249, 234);
   }
   
-:host {
-    cursor: url('/butterfly-cursor.jpg'), auto;
-  }
+
 
 
   

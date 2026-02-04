@@ -50,6 +50,7 @@ export class AppComponent {
     '#F0FFFE', // Very Light Blue
     '#DAECF5', // Pale Blue
     '#C0E5FE', // Soft Blue
+    '#BCD2E8', // Subtle Pale Blue
     '#90CCFE', // Light Blue
     '#87CEFB', // Sky Blue
     '#60B2FE', // Brighter Sky Blue
@@ -64,7 +65,6 @@ export class AppComponent {
     '#015CE0', // Intense Blue
     '#2234A8', // Navy Blue
     '#73A5C6', // Muted Blue
-    '#BCD2E8', // Subtle Pale Blue
     '#91BAD6', // Softened Blue
   ];
   
