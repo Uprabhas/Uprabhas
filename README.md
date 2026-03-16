@@ -4,9 +4,9 @@
 <h3 align="center">Iam a Full Stack Web Developer, I'm driven by a passion for crafting truly innovative and often wild web applications.</h3>
 <br></br>
 
-- 🌱 I’m currently learning **Next js**
+- 🌱 I’m currently learning **Data Engineer**
 
-- 💬 Ask me about **Angular, Web Development, React.js, Ionic, Python**
+- 💬 Ask me about **Angular, Web Development, React.js, Ionic, Nextjs**
 
 - 📫 How to reach me **prabashutla111@gmail.com**
 
