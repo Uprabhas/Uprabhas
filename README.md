@@ -4,7 +4,7 @@
 <h3 align="center">Iam a Full Stack Web Developer, I'm driven by a passion for crafting truly innovative and often wild web applications.</h3>
 <br></br>
 
-- 🌱 I’m currently learning **Data Engineer**
+- 🌱 I’m currently learning **Devops Engineer**
 
 - 💬 Ask me about **Angular, Web Development, React.js, Ionic, Nextjs**
 
